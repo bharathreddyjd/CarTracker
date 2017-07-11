@@ -12,6 +12,9 @@ import org.springframework.context.support.ResourceBundleMessageSource;
 @EntityScan(basePackages="io.egen.persistence.model")
 public class AppConfig {
 	
+
+
+
 	@Bean
 	public MessageSource messageSource() {
 		ResourceBundleMessageSource messageSource = new ResourceBundleMessageSource();
